@@ -6,6 +6,7 @@ The blog project developed using Node && Mongo && React/Redux.
 
 * npm i nodemon -g
 * npm i
+* npm run build
 * npm start
 
 ## Authors
