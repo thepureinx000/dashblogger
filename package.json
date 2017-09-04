@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon --exec babel-node ./server/server.js",
-    "build": "react-scripts build"    
+    "build": "react-scripts build"
   },
   "keywords": [],
   "license": "ISC",
