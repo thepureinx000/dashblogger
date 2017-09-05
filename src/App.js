@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import { Link } from 'react-router-dom';
+
 import './App.css';
 
 class App extends Component {
@@ -19,6 +20,9 @@ class App extends Component {
             <a href="#" className="forgot-password">
                 Forgot the password?
             </a>
+            <Link to="/auth">
+                To auth
+            </Link>
         </div>
       </div>
     );

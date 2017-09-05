@@ -9,6 +9,6 @@ The blog project developed using Node & Mongo & React/Redux.
 * npm run build
 * npm start
 
-## Authors
+## Author
 
-* **Laszlo Naumenko** - *Initial work* - [pureinx](https://github.com/pureinx)
+* **Laszlo Naumenko** - [pureinx](https://github.com/pureinx)
