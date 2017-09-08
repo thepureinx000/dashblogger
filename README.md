@@ -9,6 +9,11 @@ The blog project developed using Node & Mongo & React/Redux.
 * npm run build
 * npm start
 
+## ROADMAP
+
+- Try restify instead express.
+- ...
+
 ## Author
 
-* **Laszlo Naumenko** - [pureinx](https://github.com/pureinx)
+* **Laszlo Naumenko** - [thepureinx](https://github.com/thepureinx)
