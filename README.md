@@ -1,6 +1,6 @@
-# MERN-BASED-BLOG
+# THE DASHBLOGGER
 
-The blog project developed using Node & Mongo & React/Redux.
+A blog and dashboard developed using Node & Mongo & React/Redux.
 
 ## Getting Started
 
