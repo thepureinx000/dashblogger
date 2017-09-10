@@ -11,7 +11,7 @@ The blog project developed using Node & Mongo & React/Redux.
 
 ## ROADMAP
 
-- [x] Add basic antd.design architecture
+- [x] ~~Add basic antd.design architecture~~
 - [ ] Create a components architecture
 - [ ] Implement Routing
 - [ ] Associate a frontend with a backend
