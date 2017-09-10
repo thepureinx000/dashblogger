@@ -68,7 +68,7 @@ body, html {
 }
 
 .ant-layout-content {
-  min-height: calc(100vh - 100px);  
+  min-height: calc(100vh - 295px);  
 }
 
 .ant-layout-footer {

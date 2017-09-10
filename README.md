@@ -12,7 +12,8 @@ A blog and dashboard developed using Node & Mongo & React/Redux.
 ## ROADMAP
 
 - [x] ~~Add basic antd.design architecture~~
-- [ ] Create a components architecture
+- [x] ~~Create a components architecture~~
+- [ ] Add responsive UI
 - [ ] Implement Routing
 - [ ] Associate a frontend with a backend
 - [ ] Add restify/typescript
@@ -20,3 +21,7 @@ A blog and dashboard developed using Node & Mongo & React/Redux.
 ## Author
 
 * **Laszlo Naumenko** - [thepureinx](https://github.com/thepureinx)
+
+## Contact Me
+
+* **Telegram** - [pureinx](https://t.me/pureinx)

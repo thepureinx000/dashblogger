@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 
-import AuthPage from '../components/AuthPage';
+import WrappedHorizontalLoginForm from '../components/Header/AuthPage';
 
 class Auth extends Component {
 
     render() {
         return (
             <div>
-                <AuthPage infoAuth={'Hello Auth Page!'} />
+                <WrappedHorizontalLoginForm />
             </div>
         );
     }
