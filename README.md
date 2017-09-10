@@ -11,8 +11,11 @@ The blog project developed using Node & Mongo & React/Redux.
 
 ## ROADMAP
 
-- Try restify instead express.
-- ...
+- [x] Add basic antd.design architecture
+- [ ] Create a components architecture
+- [ ] Implement Routing
+- [ ] Associate a frontend with a backend
+- [ ] Add restify/typescript
 
 ## Author
 
