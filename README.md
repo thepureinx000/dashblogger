@@ -9,6 +9,10 @@ A blog and dashboard developed using Node & Mongo & React/Redux.
 * npm run build
 * npm start
 
+### Run Front-end 
+
+* Change package.json "start" script to "react-scripts start"
+
 ## ROADMAP
 
 - [x] ~~Add basic antd.design architecture~~

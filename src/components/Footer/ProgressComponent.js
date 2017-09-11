@@ -6,7 +6,7 @@ const ProgressComponent = () => {
     return (
         <Col span={8}>
             <div className="blog-progress-bar">
-                <Progress type="circle" percent={10} />
+                <Progress type="circle" percent={17} />
             </div>
                 <div className="blog-tags">
                     <h4 style={{ margin: '16px 0' }}>Tags:</h4>
