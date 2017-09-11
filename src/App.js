@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
-// import { Link } from 'react-router-dom';
 
 import { Layout, Col, Row } from 'antd';
 
-import AuthContainer from './containers/AuthContainer';
 import HeaderContainer from './containers/HeaderContainer';
 import ContentContainer from './containers/ContentContainer';
 import FooterContainer from './containers/FooterContainer';

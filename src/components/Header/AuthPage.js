@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { Form, Icon, Input, Button } from 'antd';
+
 const FormItem = Form.Item;
 
 function hasErrors(fieldsError) {
@@ -9,7 +10,6 @@ function hasErrors(fieldsError) {
 
 class HorizontalLoginForm extends React.Component {
   componentDidMount() {
-    // To disabled submit button at the beginning.
     this.props.form.validateFields();
   }
   handleSubmit = (e) => {
@@ -23,7 +23,6 @@ class HorizontalLoginForm extends React.Component {
   render() {
     const { getFieldDecorator, getFieldsError, getFieldError, isFieldTouched } = this.props.form;
 
-    // Only show error after a field is touched.
     const userNameError = isFieldTouched('userName') && getFieldError('userName');
     const passwordError = isFieldTouched('password') && getFieldError('password');
     return (

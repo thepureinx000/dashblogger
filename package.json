@@ -1,6 +1,6 @@
 {
-  "name": "blog-thepureinx",
-  "version": "1.0.0",
+  "name": "thedashblogger",
+  "version": "1.3.0",
   "description": "",
   "main": "index.js",
   "scripts": {

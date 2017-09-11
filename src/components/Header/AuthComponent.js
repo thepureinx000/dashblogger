@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import WrappedHorizontalLoginForm from '../components/Header/AuthPage';
+import WrappedHorizontalLoginForm from './AuthPage';
 
 class Auth extends Component {
 

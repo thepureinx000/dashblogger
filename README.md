@@ -15,6 +15,7 @@ A blog and dashboard developed using Node & Mongo & React/Redux.
 - [x] ~~Create a components architecture~~
 - [ ] Add responsive UI
 - [ ] Implement Routing
+- [ ] Implement Redux
 - [ ] Associate a frontend with a backend
 - [ ] Add restify/typescript
 

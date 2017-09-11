@@ -4,7 +4,7 @@ import { Row, Col, Layout } from 'antd';
 
 import Title from '../components/Header/Title';
 import Logo from '../components/Header/Logo';
-import AuthContainer from '../containers/AuthContainer';
+import AuthComponent from '../components/Header/AuthComponent';
 
 import blog from '../media/img/blog.png';
 
@@ -23,7 +23,7 @@ export default class HeaderContainer extends Component {
                 </Col>
                 <Col span={6}></Col>
                 <Col span={6}>
-                    <AuthContainer />
+                    <AuthComponent />
                 </Col>
                 </Row>
             </Header>
