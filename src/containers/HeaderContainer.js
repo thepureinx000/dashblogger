@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { PureComponent } from 'react';
 
 import { Row, Col, Layout } from 'antd';
 
@@ -8,10 +8,10 @@ import AuthComponent from '../components/Header/AuthComponent';
 
 import blog from '../media/img/blog.png';
 
-export default class HeaderContainer extends Component {
+export default class HeaderContainer extends PureComponent {
     render() {
         const { Header } = Layout;
-
+        
         return (
             <Header>
                 <Row>

@@ -21,7 +21,19 @@ body, html {
 }
 
 .blog-title {
-  display: inline-block
+  display: inline-block;
+}
+
+.blog-title a {
+  text-decoration: none;
+}
+
+.blog-title h1 {
+  transition: 0.1s;
+}
+
+.blog-title h1:hover {
+  color: #108EE9;
 }
 
 .blog-title h1 {

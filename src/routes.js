@@ -7,5 +7,5 @@ import AuthPage from '../src/components/Header/AuthPage';
 export default (
     <Route component={App} path='/'>
         <Route component={AuthPage} path='auth' />
-    </Route>        
+    </Route>
 );

@@ -8,7 +8,7 @@ import TimelineComponent from '../components/Footer/TimelineComponent';
 
 export default class FooterContainer extends Component {
 
-    render() {  
+    render() {
         const { Footer } = Layout;
 
         return (
@@ -18,7 +18,7 @@ export default class FooterContainer extends Component {
                     <ProgressComponent />
                     <DateComponent />
                 </Row>
-            </Footer>
+            </Footer> 
         );
     }
 }
