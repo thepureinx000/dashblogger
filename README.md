@@ -4,6 +4,8 @@ A blog and dashboard developed using Node & Mongo & React/Redux.
 
 ## Getting Started
 
+* git clone https://github.com/thepureinx/dashblogger.git
+
 * npm i nodemon -g
 * npm i
 * npm run build
@@ -17,7 +19,7 @@ A blog and dashboard developed using Node & Mongo & React/Redux.
 
 - [x] ~~Add basic antd.design architecture~~
 - [x] ~~Create a components architecture~~
-- [x] Add typescript & eslint
+- [x] ~~Add typescript & eslint~~
 - [ ] Add responsive UI
 - [ ] Implement Routing
 - [ ] Implement Redux
