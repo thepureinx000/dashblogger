@@ -1,3 +1,4 @@
+```html
 <h4 align="center">A blog and dashboard developed using Node & Mongo & React/Redux.
     <a href="#">THE DASHBLOGGER</a>.</h4>
 
@@ -14,6 +15,7 @@
       </a>
     </p>
     <br>
+```
 
 ## Getting Started
 
