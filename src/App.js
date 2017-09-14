@@ -10,9 +10,9 @@ import SidebarComponent from './components/Content/Sidebar/SidebarComponent';
 import 'antd/dist/antd.css';
 import './App.css';
 
-class App extends Component {
+export default class App extends Component {
   state = {
-    collapsed: false,
+    collapsed: false
   };
   onCollapse = (collapsed) => {
     this.setState({ collapsed });
@@ -41,5 +41,3 @@ class App extends Component {
     );
   }
 }
-
-export default App;

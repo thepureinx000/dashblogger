@@ -19,7 +19,7 @@ export default class SidebarComponent extends Component {
 
     render() {
         const SubMenu = Menu.SubMenu;
-        
+
 
         return (
                           <Col span={8}>
