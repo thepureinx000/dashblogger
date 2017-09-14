@@ -9,19 +9,19 @@ A blog and dashboard developed using Node & Mongo & React/Redux.
 * npm run build
 * npm start
 
-### Run Front-end 
+### Run single Front-end dev-server
 
-* Change package.json "start" script to "react-scripts start"
+* Change package.json "start" script to "BROWSER=none react-app-rewired start  --scripts-version react-scripts-ts"
 
 ## ROADMAP
 
 - [x] ~~Add basic antd.design architecture~~
 - [x] ~~Create a components architecture~~
+- [x] Add typescript & eslint
 - [ ] Add responsive UI
 - [ ] Implement Routing
 - [ ] Implement Redux
-- [ ] Associate a frontend with a backend
-- [ ] Add restify/typescript
+- [ ] Associate a front-end with a backend
 
 ## Author
 
