@@ -2,21 +2,25 @@ import React, { Component } from 'react';
 
 import { Layout, Col, Row } from 'antd';
 
-import HeaderContainer from './containers/HeaderContainer';
-import ContentContainer from './containers/ContentContainer';
-import FooterContainer from './containers/FooterContainer';
-import SidebarComponent from './components/Content/Sidebar/SidebarComponent';
+import HeaderContainer from './HeaderContainer';
+import ContentContainer from './ContentContainer';
+import FooterContainer from './FooterContainer';
+import SidebarComponent from '../components/Content/Sidebar/SidebarComponent';
 
 import 'antd/dist/antd.css';
-import './App.css';
+import '../media/App.css';
 
 export default class App extends Component {
-  state = {
-    collapsed: false
-  };
-  onCollapse = (collapsed) => {
-    this.setState({ collapsed });
+  constructor() {
+    super();
+
+    this.state = {
+      collapsed: false
+    };
   }
+
+  onCollapse = (collapsed) => {
+    this.setState({ collapsed })
 
   render() {
     const { Sider } = Layout;

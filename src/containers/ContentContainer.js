@@ -6,16 +6,16 @@ import { Row, Layout, Col } from 'antd';
 import StepsComponent from '../components/Content/Steps/StepsComponent';
 
 export default class ContentContainer extends PureComponent {
-      render() {
-        const { Content } = Layout;
 
-        return (
-            <Content>
-              <Row>
-                <Col span={8}></Col>
-                <StepsComponent />
-              </Row>
-            </Content>
-        );
-      }
+  render() {
+    const { Content } = Layout;
+
+    return (
+        <Content>
+          <Row>
+            <Col span={8}></Col>
+            <StepsComponent />
+          </Row>
+        </Content>
+          );
 }
