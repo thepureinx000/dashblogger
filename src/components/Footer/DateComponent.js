@@ -6,7 +6,7 @@ function onChange(date, dateString) {
     console.log(date, dateString);
   }
 
-const { MonthPicker } = DatePicker;            
+const { MonthPicker } = DatePicker;
 const DateComponent = () => {
     return (
         <Col span={8}>
@@ -19,5 +19,4 @@ const DateComponent = () => {
         </Col>
     );
 }
-
 export default DateComponent;
